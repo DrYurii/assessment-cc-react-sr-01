@@ -41,3 +41,21 @@ export const ProgressBar = styled(LinearProgress)(() => ({
     backgroundColor: colors.progressColor,
   },
 }));
+
+export const BattleMonsterImage = styled.img`
+  border-radius: 7px;
+  max-width: 100%;
+`;
+
+export const MonsterStats = styled.div`
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+`;
+
+export const StatLine = styled.div`
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 8px 0;
+`;
